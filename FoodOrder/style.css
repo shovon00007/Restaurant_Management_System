@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+  }
+  body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-image: url('fast-food-la-gi.jpg'); /* Background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: bold;
+    color: #fff; /* Text color on the background image */
+}
+
+/* Header styling */
+header {
+    background-color: transparent;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Company name styling */
+.company-name {
+    font-family: Copperplate, Papyrus, fantasy;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Navigation menu styling */
+nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for the navigation menu */
+    text-align: center;
+    padding: 10px 0; /* Increase the top and bottom padding to make it taller */
+    line-height: 10px; /* Increase the line height to vertically center the text */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Text color in the navigation menu */
+    font-weight: bold;
+    transition: color 0.3s; /* Add transition for smooth color change */
+}
+
+/* Add hover color for navigation links */
+nav a:hover {
+    color: #fff; /* Change the color to white on hover */
+}
+
+/* Container for overlay text */
+.overlay-container {
+    background-color: transparent; /* Overlay background color */
+    padding: 20px;
+    text-align: center;
+}
+
+.overlay-text {
+    font-family: Copperplate, Papyrus, fantasy;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 50px;
+    width: 100%;
+    font-weight: bold;
+}
+.overlay-textin{
+    font-family: Copperplate, Papyrus, fantasy;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* Order container in the middle */
+.order-container {
+    background-color: rgba(0, 0, 0, 0.3); /* Overlay background color */
+    padding: 20px;
+    text-align: center;
+}
+
+.order-text {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.order-now-button {
+    background-color: #f1f2f3;
+    color: #0d0b0b;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.order-now-button:hover {
+    background-color: #020303;
+    color: #fff;
+}
+.signup-container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 0.3); /* Pink signup container color */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.signup-container h2 {
+    text-align: center;
+}
+
+.signup-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="file"],
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group label.radio-label {
+    margin-right: 10px;
+}
+
+section, header {
+    background-color: rgba(0, 0, 0, 0.3); /* Overlay background color */
+    padding: 20px;
+    text-align: center;
+}
+
+.login-container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 0.3); /* Pink signup container color */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.login-container h2 {
+    margin-bottom: 0px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="userid"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-btn {
+    background-color: rgb(36, 94, 102); /* Pink signup button color */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.signup-link {
+    color: white;
+}
+.login-btn:hover {
+    color: #070305;
+}
+
+.login-btn:hover {
+    background-color: #070305;
+}
+
+
+/* Footer styling */
+footer {
+    background-color: transparent;
+    color: #fff; /* Text color in the footer */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Fix the footer at the bottom */
+    width: 100%; /* Set the footer width to 100% */
+    bottom: 0; /* Position the footer at the bottom */
+}  

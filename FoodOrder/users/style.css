@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+.quantity-input {
+    width: 40px; /* You can adjust the width as needed */
+    padding: 10; /* Add some padding for better appearance */
+}
+/* Reset some default styles */
+body, label{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0;
+    padding: 10;
+    text-align: center;
+}
+h1, h2, p, ul{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+img{
+    margin-top: 20px;
+    text-align: center;
+}
+
+input, select, button {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and opacity for the body */
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-image: url('fast-food-la-gi.jpg'); /* Background image URL */
+    background-size: cover; /* This ensures the background image covers the entire viewport */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixed background image */
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
+}
+
+
+
+
+
+ul, li{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+/* Style the page content */
+.container {
+    max-width: 600px; /* Decreased max-width */
+    margin: 20px auto;
+    padding: 20px; /* Background color with opacity */
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Style form elements */
+form {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    width: 100%;
+}
+
+label {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 20%;
+}
+
+/* Style error message */
+.error-message {
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+
+/* Style success message */
+.success-message {
+    color: green;
+    text-align: center;
+    width: 100%;
+}
+
+/* Style navigation links */
+nav ul {
+    background-color: transparent;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    background-color: transparent;
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style user profile picture */
+.profile-pic {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+/* Style admin dashboard menu links */
+.admin-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-menu li {
+    margin-bottom: 10px;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.company-name {
+    font-family: Copperplate, Papyrus, fantasy;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+/* Navigation menu styling */
+nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for the navigation menu */
+    text-align: center;
+    padding: 10px 0; /* Increase the top and bottom padding to make it taller */
+    line-height: 10px; /* Increase the line height to vertically center the text */
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Text color in the navigation menu */
+    font-weight: bold;
+    transition: color 0.3s; /* Add transition for smooth color change */
+}
+
+/* Add hover color for navigation links */
+nav a:hover {
+    color: #fff; /* Change the color to white on hover */
+}
